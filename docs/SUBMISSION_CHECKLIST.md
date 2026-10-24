@@ -3,7 +3,7 @@
 ## Required deliverables
 
 - [x] Live URL: <https://week-11-pulso-epr.vercel.app>
-- [ ] GitHub URL: add after repository creation and push.
+- [x] GitHub URL: https://github.com/davidbuzali/week-11-pulso-epr
 - [ ] `DEMO_David_Buzali.mp4`: record with `docs/DEMO_SCRIPT.md`.
 - [x] `PACKET_David_Buzali.pdf`: generated from the packet after visual QA.
 - [x] `PERSONA_David_Buzali.pdf`: generated from the persona log after visual QA.
