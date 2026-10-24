@@ -19,6 +19,10 @@
 
 ## Deployment 3 - persona fix
 
-- Date: pending final persona-fix deployment.
+- Date: October 24, 2026
+- Environment: Vercel production
+- Alias: <https://week-11-pulso-epr.vercel.app>
+- Immutable URL: <https://week-11-pulso-5lfnwerl9-davidbuzali.vercel.app>
 - Change: repair projection-section contrast at phone width and clarify that passing a route filter is not a recommendation.
+- Verification: final production build completed successfully; alias updated.
 

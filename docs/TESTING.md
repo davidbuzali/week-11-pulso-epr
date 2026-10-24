@@ -50,3 +50,9 @@ The logic suite checks:
 5. mandatory human review before export; and
 6. absence of common identity fields in the export.
 
+## Persona-fix visual retest
+
+- Phone-width projection section: passed; the white heading now sits on a navy background with clear contrast.
+- Eligible route wording: passed in the accessibility tree as `PASA EL FILTRO · NO ES RECOMENDACIÓN`.
+- Production deployment 3 completed at <https://week-11-pulso-epr.vercel.app>.
+
