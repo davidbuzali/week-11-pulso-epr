@@ -319,7 +319,7 @@ function App() {
                   <Check passed={route.passes.dataControl}>Control de datos {scoreLabel(route.dataControl)}</Check>
                 </ul>
                 <p className="caveat"><strong>Por comprobar:</strong> {route.caveat}</p>
-                <div className={`route-verdict ${route.eligible ? "pass" : "fail"}`}>{route.eligible ? "Pasa para investigar" : "No pasa todas las condiciones"}</div>
+                <div className={`route-verdict ${route.eligible ? "pass" : "fail"}`}>{route.eligible ? "Pasa el filtro · no es recomendación" : "No pasa todas las condiciones"}</div>
               </article>
             ))}
           </div>

@@ -102,7 +102,7 @@ main { max-width: 1240px; margin: auto; padding: 0 clamp(18px, 4vw, 56px); }
 .sensor-permission { width: 100%; margin-top: 14px; padding: 10px; color: #405a61; background: transparent; border: 1px dashed #aeb7b2; border-radius: 7px; cursor: pointer; font-size: 11px; font-weight: 700; }
 .fine-print { color: #7c8b8e; font-size: 10px; line-height: 1.45; }
 
-.projection-stage { position: relative; }
+.projection-stage { position: relative; isolation: isolate; }
 .projection-stage::before { content: ""; position: absolute; inset: 58px -100vw -30px; z-index: -1; background: var(--navy); }
 .projection-stage .stage-header h2, .projection-stage .stage-header > p { color: white; }
 .projection-stage .stage-number { color: #9bd7b7; border-color: #557078; }

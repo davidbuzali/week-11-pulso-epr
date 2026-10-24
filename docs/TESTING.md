@@ -32,6 +32,13 @@ The first build requested Google Fonts at runtime. The design did not need that 
 - Immutable deployment: <https://week-11-pulso-oyunq1qfp-davidbuzali.vercel.app>
 - State: pre-fix baseline used for the documented test-fix-redeploy cycle.
 
+## Deployment 2
+
+- Timestamp: October 24, 2026 (America/Mexico_City)
+- Production alias: <https://week-11-pulso-epr.vercel.app>
+- Immutable deployment: <https://week-11-pulso-awl46q271-davidbuzali.vercel.app>
+- State: confidence-gate fix deployed and verified in the live accessibility tree. Switching to measured mode with zero minutes and zero checkpoints now remains `CONFIANZA EXPLORATORIA`.
+
 ## Automated coverage
 
 The logic suite checks:
