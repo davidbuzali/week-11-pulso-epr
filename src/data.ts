@@ -1,4 +1,4 @@
-import type { CycleInput, RouteAssumption } from "./types";
+import type { CycleInput, RouteAssumption } from "./types.ts";
 
 export const DEFAULT_CYCLE: CycleInput = {
   skuCount: 280,

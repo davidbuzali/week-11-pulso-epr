@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { DEFAULT_CYCLE, SAMPLE_CYCLE, STATUS_LABEL } from "./data";
-import { compareRoutes, INPUT_BOUNDS, makeExport, projectCycleTwo, simulatedSensor, validateCycle } from "./logic";
-import type { Constraints, CycleInput, EvidenceStatus, SensorMode, SensorSummary } from "./types";
+import { DEFAULT_CYCLE, SAMPLE_CYCLE, STATUS_LABEL } from "./data.ts";
+import { compareRoutes, INPUT_BOUNDS, makeExport, projectCycleTwo, simulatedSensor, validateCycle } from "./logic.ts";
+import type { Constraints, CycleInput, EvidenceStatus, SensorMode, SensorSummary } from "./types.ts";
 
 const DEFAULT_CONSTRAINTS: Constraints = {
   maxAnnualCost: 250000,

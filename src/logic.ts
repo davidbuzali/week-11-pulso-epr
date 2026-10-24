@@ -1,5 +1,5 @@
-import { ROUTES } from "./data";
-import type { Constraints, CycleInput, Projection, RouteResult, SensorSummary } from "./types";
+import { ROUTES } from "./data.ts";
+import type { Constraints, CycleInput, Projection, RouteResult, SensorSummary } from "./types.ts";
 
 export const INPUT_BOUNDS: Record<keyof CycleInput, { min: number; max: number }> = {
   skuCount: { min: 1, max: 100000 },
@@ -66,7 +66,9 @@ export function projectCycleTwo(input: CycleInput, sensor: SensorSummary): Proje
     lowHours: round(low),
     baseHours: round(base),
     highHours: round(high),
-    confidence: sensor.mode === "measured" && input.evidenceCompleteness >= 70 ? "limitada" : "exploratoria",
+    confidence: sensor.mode === "measured" && sensor.activeMinutes >= 15 && sensor.checkpoints >= 1 && input.evidenceCompleteness >= 70
+      ? "limitada"
+      : "exploratoria",
     modelVersion: "SYN-LIN-0.3",
     drivers: candidates.map((item, index) => ({
       label: item.label,
